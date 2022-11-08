@@ -1,0 +1,11 @@
+# https://anaconda.org/conda-forge
+
+name: rem-viz
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7.12
+  - pip=22.0.2
+  - black=22.10.0
+  # https://github.com/klarrieu/RiverREM/blob/62a9d1161dd82b5fb33defc65ac121189c9c7569/meta.yaml
+  - riverrem=1.0.4
